@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "577288885244",
+    "firebase_url": "https://eve-fucapi-e998a.firebaseio.com",
+    "project_id": "eve-fucapi-e998a",
+    "storage_bucket": "eve-fucapi-e998a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577288885244:android:32fd4f3324ea5307",
+        "android_client_info": {
+          "package_name": "com.example.eve.eve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577288885244-64t2qifaq8lq040so22slu92jt41r5a1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eve.eve",
+            "certificate_hash": "b831060e396dd9cf4c630831acf7931abe42ec24"
+          }
+        },
+        {
+          "client_id": "577288885244-h4rm2j2mkfa3npsmjk6gviodt7cisrb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eve.eve",
+            "certificate_hash": "318d36afa1abbbbbbd22c0cb0a09860dc9e7fe30"
+          }
+        },
+        {
+          "client_id": "577288885244-8mbuil6o760cnjhacvrop9uk2t90e85b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVTn0Rend5uPPn_wg-oftHaGkEyIbY5v8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577288885244-8mbuil6o760cnjhacvrop9uk2t90e85b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

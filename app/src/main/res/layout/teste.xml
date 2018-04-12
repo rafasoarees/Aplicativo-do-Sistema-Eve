@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".5"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".5"
+            android:background="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/all_night2"
+            android:transitionName="image"
+            tools:ignore="ContentDescription,UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/tv_atendente"
+            style="?android:textAppearanceSmallInverse"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon"
+            android:background="@color/text_background"
+            android:gravity="center"
+            android:padding="@dimen/tiny_margin"
+            tools:text="Atendente" />
+
+        <TextView
+            android:id="@+id/tv_chamado"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/icon"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/small_margin"
+            android:paddingRight="@dimen/small_margin"
+            android:paddingTop="@dimen/small_margin"
+            tools:text="Chamado" />
+
+        <TextView
+            android:id="@+id/tv_descricao"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_chamado"
+            android:layout_toEndOf="@+id/icon"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:padding="@dimen/small_margin"
+            tools:text="Descrição vem aqui" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:alpha=".5"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_local"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/view"
+            android:layout_toEndOf="@+id/icon"
+            android:maxLines="1"
+            android:layout_marginLeft="150dp"
+            android:padding="@dimen/small_margin"
+            tools:text="Local"
+            tools:ignore="RtlHardcoded" />
+    </RelativeLayout>
+
+</FrameLayout>
